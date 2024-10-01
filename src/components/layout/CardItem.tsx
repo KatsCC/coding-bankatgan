@@ -67,6 +67,7 @@ const CardItem = ({ post }: CardItemProps) => {
               background: 'none',
               cursor: 'pointer',
             }}
+            aria-label="좋아요 버튼"
           >
             <motion.div
               whileTap={{ scale: 1.2 }}
